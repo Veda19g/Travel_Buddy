@@ -7,7 +7,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow requests from frontend
+    origin: "https://travel-buddy-roan.vercel.app/", // Allow requests from frontend
     credentials: true, // Allow cookies and authorization headers
   })
 );
