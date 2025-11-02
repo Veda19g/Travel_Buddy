@@ -1,0 +1,190 @@
+export const suggestedTrips = [
+  {
+    id: 1,
+    name: "Goa",
+    tagline: "Beach Paradise & Nightlife",
+    description: "Sun-kissed beaches, Portuguese heritage, vibrant nightlife, and water sports make Goa India's premier beach destination.",
+    image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800",
+    highlights: ["Beaches", "Nightlife", "Water Sports", "Portuguese Forts", "Seafood"],
+    bestSeason: "November - February",
+    budgetRange: "₹15,000 - ₹30,000",
+    duration: "4-5 days",
+    rating: 4.8,
+    region: "West India",
+    activities: ["Beach hopping", "Water sports", "Fort exploration", "Beach parties", "Spice plantation tours"]
+  },
+  {
+    id: 2,
+    name: "Manali",
+    tagline: "Mountain Adventure Hub",
+    description: "Nestled in the Himalayas, Manali offers adventure sports, scenic valleys, ancient temples, and perfect honeymoon vibes.",
+    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800",
+    highlights: ["Trekking", "Skiing", "Temples", "Rohtang Pass", "Adventure Sports"],
+    bestSeason: "October - June",
+    budgetRange: "₹20,000 - ₹40,000",
+    duration: "5-7 days",
+    rating: 4.7,
+    region: "North India",
+    activities: ["Paragliding", "River rafting", "Solang Valley", "Temple visits", "Shopping at Mall Road"]
+  },
+  {
+    id: 3,
+    name: "Jaipur",
+    tagline: "The Pink City Heritage",
+    description: "Royal palaces, magnificent forts, colorful bazaars, and rich Rajasthani culture define the Pink City of India.",
+    image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800",
+    highlights: ["Forts", "Palaces", "Shopping", "Culture", "Architecture"],
+    bestSeason: "October - March",
+    budgetRange: "₹12,000 - ₹25,000",
+    duration: "3-4 days",
+    rating: 4.6,
+    region: "North India",
+    activities: ["Amber Fort", "City Palace", "Hawa Mahal", "Shopping at Johari Bazaar", "Elephant ride"]
+  },
+  {
+    id: 4,
+    name: "Kerala Backwaters",
+    tagline: "God's Own Country",
+    description: "Serene backwaters, lush greenery, Ayurvedic treatments, and houseboat stays create a tranquil paradise in Kerala.",
+    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800",
+    highlights: ["Houseboats", "Ayurveda", "Beaches", "Tea Gardens", "Wildlife"],
+    bestSeason: "September - March",
+    budgetRange: "₹25,000 - ₹45,000",
+    duration: "6-7 days",
+    rating: 4.9,
+    region: "South India",
+    activities: ["Houseboat cruise", "Ayurvedic massage", "Munnar tea gardens", "Thekkady wildlife", "Beach relaxation"]
+  },
+  {
+    id: 5,
+    name: "Rishikesh",
+    tagline: "Yoga Capital & Adventure",
+    description: "Spiritual hub on the Ganges, famous for yoga, river rafting, Beatles Ashram, and stunning Himalayan views.",
+    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800",
+    highlights: ["Yoga", "River Rafting", "Temples", "Adventure", "Beatles Ashram"],
+    bestSeason: "September - November & March - May",
+    budgetRange: "₹10,000 - ₹20,000",
+    duration: "3-4 days",
+    rating: 4.7,
+    region: "North India",
+    activities: ["River rafting", "Yoga classes", "Laxman Jhula", "Ganga Aarti", "Bungee jumping"]
+  },
+  {
+    id: 6,
+    name: "Udaipur",
+    tagline: "City of Lakes",
+    description: "Romantic lake city with stunning palaces, boat rides on Lake Pichola, and mesmerizing sunset views.",
+    image: "https://images.unsplash.com/photo-1587135941948-670b381f08ce?w=800",
+    highlights: ["Lakes", "Palaces", "Romantic", "Boat Rides", "Architecture"],
+    bestSeason: "October - March",
+    budgetRange: "₹15,000 - ₹35,000",
+    duration: "3-4 days",
+    rating: 4.8,
+    region: "North India",
+    activities: ["Lake Pichola boat ride", "City Palace", "Jag Mandir", "Sunset at Sajjangarh", "Shopping"]
+  },
+  {
+    id: 7,
+    name: "Andaman Islands",
+    tagline: "Tropical Beach Paradise",
+    description: "Crystal clear waters, pristine beaches, coral reefs, water sports, and exotic marine life in the Bay of Bengal.",
+    image: "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800",
+    highlights: ["Beaches", "Scuba Diving", "Snorkeling", "Water Sports", "Marine Life"],
+    bestSeason: "October - May",
+    budgetRange: "₹35,000 - ₹60,000",
+    duration: "5-7 days",
+    rating: 4.9,
+    region: "Islands",
+    activities: ["Scuba diving", "Snorkeling", "Beach hopping", "Cellular Jail", "Water sports"]
+  },
+  {
+    id: 8,
+    name: "Varanasi",
+    tagline: "Spiritual Heart of India",
+    description: "Ancient spiritual city on the Ganges, famous for ghats, temples, Ganga Aarti, and profound cultural experiences.",
+    image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800",
+    highlights: ["Ghats", "Temples", "Ganga Aarti", "Culture", "Spirituality"],
+    bestSeason: "October - March",
+    budgetRange: "₹10,000 - ₹20,000",
+    duration: "2-3 days",
+    rating: 4.6,
+    region: "North India",
+    activities: ["Ganga Aarti", "Boat ride at sunrise", "Temple visits", "Street food tour", "Sarnath"]
+  },
+  {
+    id: 9,
+    name: "Ladakh",
+    tagline: "Land of High Passes",
+    description: "Breathtaking Himalayan landscapes, Buddhist monasteries, high-altitude lakes, and thrilling mountain roads.",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+    highlights: ["Mountains", "Monasteries", "Pangong Lake", "Adventure", "Biking"],
+    bestSeason: "May - September",
+    budgetRange: "₹30,000 - ₹50,000",
+    duration: "7-10 days",
+    rating: 4.9,
+    region: "North India",
+    activities: ["Bike trip", "Pangong Lake", "Nubra Valley", "Monastery visits", "Khardung La Pass"]
+  },
+  {
+    id: 10,
+    name: "Hampi",
+    tagline: "Ancient Ruins & History",
+    description: "UNESCO World Heritage site with magnificent ruins, boulder landscapes, ancient temples, and rich history.",
+    image: "https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800",
+    highlights: ["Ruins", "History", "Architecture", "Temples", "Boulders"],
+    bestSeason: "October - February",
+    budgetRange: "₹12,000 - ₹22,000",
+    duration: "2-3 days",
+    rating: 4.7,
+    region: "South India",
+    activities: ["Temple exploration", "Coracle ride", "Sunset at Hemakuta Hill", "Boulder climbing", "Hampi Bazaar"]
+  },
+  {
+    id: 11,
+    name: "Shimla",
+    tagline: "Queen of Hills",
+    description: "Colonial charm, pleasant weather, Mall Road shopping, toy train rides, and stunning mountain views.",
+    image: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800",
+    highlights: ["Hills", "Colonial Architecture", "Mall Road", "Toy Train", "Snow"],
+    bestSeason: "March - June & December - January",
+    budgetRange: "₹15,000 - ₹30,000",
+    duration: "3-4 days",
+    rating: 4.5,
+    region: "North India",
+    activities: ["Mall Road walk", "Toy train ride", "Kufri adventure", "Jakhu Temple", "Ice skating"]
+  },
+  {
+    id: 12,
+    name: "Mysore",
+    tagline: "City of Palaces",
+    description: "Grand palaces, Dasara festival, silk sarees, sandalwood, yoga, and rich cultural heritage of Karnataka.",
+    image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800",
+    highlights: ["Palaces", "Culture", "Yoga", "Gardens", "Festivals"],
+    bestSeason: "October - February",
+    budgetRange: "₹10,000 - ₹20,000",
+    duration: "2-3 days",
+    rating: 4.6,
+    region: "South India",
+    activities: ["Mysore Palace", "Chamundi Hill", "Brindavan Gardens", "Silk shopping", "Yoga classes"]
+  }
+];
+
+export const regions = ["All", "North India", "South India", "West India", "Islands"];
+
+export const budgetRanges = [
+  "All",
+  "Budget (₹10,000 - ₹20,000)",
+  "Mid-Range (₹20,000 - ₹35,000)",
+  "Luxury (₹35,000+)"
+];
+
+export const interests = [
+  "All",
+  "Beaches",
+  "Mountains",
+  "Adventure",
+  "Culture",
+  "Spirituality",
+  "Nightlife",
+  "History"
+];
