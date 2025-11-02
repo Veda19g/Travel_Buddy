@@ -122,7 +122,7 @@ const handleSubmit = async (e) => {
   try {
     console.log('Sending request...', formData);
     
-    const response = await fetch('http://localhost:8000/api/iti/create', {
+    const response = await fetch('https://travel-buddy-5wds.onrender.com/api/iti/create', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
